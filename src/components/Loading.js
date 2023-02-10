@@ -1,0 +1,1 @@
+export const Loading = <div><h2>Loading...Please wait.</h2></div>;
