@@ -50,7 +50,7 @@ const GetDog = () => {
     // }
 
     const handleClick2 = async (url) => {
-        console.log("Before getting dogurl");
+        console.log("Before getting dogurl!!");
         const dogurl =  await fetchDog2(url); //Need to wait for an asnyc function fetchDog2 to finish and reture value
         // console.log("After getting dogurl");
         console.log('dogurl=', dogurl);
